@@ -5,7 +5,7 @@ client.on('ready', async () => {
   console.log(`${client.user.username} is ready!`);
 })
 
-client.login("Njk0NjY5MzI1ODUxNjg4OTkw.GPWD0m.aMl4xf-44WusO1TC2nWJyIldQpsDN42DRt6Sag");
+client.login();
 
 client.on('message', async (message) => {
   if (message.author.id == '1110536642273497129' && message.embeds && message.embeds[0] && message.embeds[0].description) {
