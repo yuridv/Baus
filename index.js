@@ -11,7 +11,7 @@ client.on('message', async (message) => {
   if (message.author.id == '1110536642273497129' && message.embeds && message.embeds[0] && message.embeds[0].description) {
     let code = message.embeds[0].description.split('`')[1]
     if (code) {
-      await Timeout(9000)
+      await Timeout(3000)
       message.channel.sendSlash('1110536642273497129', 'abrirbau', code)
     }
   }
